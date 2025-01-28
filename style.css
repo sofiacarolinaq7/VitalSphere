@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    background-color: #020508; /* Soft green for background */
+    color: #7C444F; /* Deep natural red for text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Titles */
+h1 {
+    font-size: 5rem;
+    color: #9F5255; /* Warm reddish tone */
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #AAB99A;
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 10px auto 30px;
+    color: #727D73; /* Earthy green-gray tone */
+    width: 70%;
+    line-height: 1.6;
+}
+
+/* Buttons */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #FFF;
+    background-color: #E16A54;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #F39E60;
+}
+
+/* Image Styles */
+.fondo1 {
+    width: 100%; /* Adjust to full width of screen */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 500px; /* Limiting the max height to keep the header clean */
+    object-fit: cover; /* Ensures image fills container without distortion */
+    border-bottom: 5px solid #AAB99A; /* Subtle bottom border */
+}
+
+/* Header Section Specific Styles */
+.header-section {
+    text-align: center;
+    margin-top: 20px;
+
+}
+/* Header section title h1 */
+.header-section h1 {
+    color: #9F5255; /* Color for h1 */
+}
+
+/* Header section title h2 */
+.header-section h2 {
+    color: #AAB99A; /* Color for h2, change it to any color you want */
+}
+
+h5 {
+    font-size: 1rem;
+    color: #8c94d4; /* Warm reddish tone */
+    margin-top: 20px;
+}
+
+/* Additional Styles for the Button and Header */
+.header-section a {
+    background-color: #F39E60;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.header-section a:hover {
+    background-color: #E16A54;
+}
+
+/* Optional - Further section or page adjustments */
+#start {
+    padding: 20px;
+    background-color: #020508;
+    color: #AAB99A;
+    margin-top: 40px;
+}
